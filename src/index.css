@@ -207,3 +207,142 @@ img {
   border-radius: 7px; /* Rounded corners */
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
 }
+
+/* Original styles remain unchanged */
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  /* Adjust body padding */
+  body {
+    padding: 2rem;
+    padding-bottom: 4rem;
+  }
+
+  /* Container adjustments */
+  .container {
+    gap: 3.2rem;
+  }
+
+  /* Header adjustments */
+  .header h1 {
+    font-size: 4.2rem;
+    letter-spacing: 2px;
+  }
+
+  .header h1::before,
+  .header h1::after {
+    width: 8rem;
+    height: 2px;
+  }
+
+  /* Menu adjustments */
+  .menu {
+    gap: 3.2rem;
+  }
+
+  .menu h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+
+  .menu > p {
+    font-size: 1.4rem;
+    width: 90%;
+  }
+
+  /* Pizza grid adjustments */
+  .pizzas {
+    grid-template-columns: 1fr;
+    gap: 3.2rem;
+  }
+
+  .pizza {
+    flex-direction: column;
+    align-items: center; /* Center content */
+    text-align: center; /* Center text */
+  }
+
+  .pizza img {
+    width: 10rem;
+    margin-bottom: 0rem; /* Add spacing below the image */
+    display: block; /* Ensures image is treated as a block element */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+  }
+
+  .pizza h3 {
+    font-size: 1.8rem;
+  }
+
+  .pizza p {
+    font-size: 1.4rem;
+    padding: 0 5rem; /* Add padding to left and right */
+    text-align: center; /* Optional: Makes the text look cleaner */
+    line-height: 1.6; /* Improves readability */
+  }
+
+  .pizza span {
+    font-size: 1.4rem;
+  }
+
+  /* Footer adjustments */
+  .footer {
+    font-size: 1.2rem;
+  }
+
+  /* Button adjustments */
+  .btn {
+    font-size: 1.2rem;
+    padding: 1.2rem 2.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Further adjustments for smaller screens */
+  .header h1 {
+    font-size: 3.4rem;
+    letter-spacing: 1px;
+  }
+
+  .header h1::before,
+  .header h1::after {
+    width: 5rem;
+    height: 1.5px;
+  }
+
+  .menu h2 {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+  }
+
+  .menu > p {
+    font-size: 1.2rem;
+    padding: 0 1.2rem; /* Adjust padding for smaller screens */
+    text-align: center; /* Optional: Makes the text look cleaner */
+    line-height: 1.6; /* Improves readability */
+  }
+
+  .pizza img {
+    width: 10rem;
+    display: block; /* Ensures image is treated as a block element */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+  }
+
+  .pizza h3 {
+    font-size: 1.6rem;
+  }
+
+  .pizza p {
+    font-size: 1.2rem;
+  }
+
+  .pizza span {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+  }
+}
