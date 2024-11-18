@@ -47,7 +47,7 @@ const burgerData = [
     name: "Classic Smash Burger",
     ingredients: "Smash Burger Patty, Melted Cheese, Classic Burger Sauce",
     price: 105,
-    photoName: "burger/burger6.png",
+    photoName: "burger/Burger6.png",
     soldOut: false,
   },
 ];
