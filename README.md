@@ -2,7 +2,7 @@
 
 This project is a React-based web app showcasing the menu of **3etra**, an Egyptian restaurant (note: this is not the official website). The app demonstrates key React concepts and provides a user-friendly interface to explore a list of menu items.
 
-check it ou live at : https://burger-menu-mu.vercel.app/
+check it out live at : https://burger-menu-mu.vercel.app/
 
 ## Features
 
